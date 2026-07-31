@@ -1,19 +1,45 @@
 aid: nimbus-health
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/nimbus-health.png
 name: Nimbus Health
-description: Nimbus Health is a company surfaced as a portfolio company of 8vc and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Nimbus Health is a technology-enabled network of outpatient pulmonary
+  care clinics treating chronic respiratory disease. Founded in 2022, it acquires
+  and unifies established pulmonary practices onto a shared clinical and operational
+  platform, operating eight clinics across Arizona, Georgia, and South Carolina and
+  serving more than thirty thousand patients with care for COPD, asthma, interstitial
+  lung disease, pulmonary fibrosis, bronchiectasis, sleep apnea, and chronic cough.
+  It is backed by 8VC, 2048 Ventures, and General Catalyst. No public developer API,
+  documentation, or developer portal surface was found during enrichment; this profile
+  captures company identity and domain-security posture as a portfolio lead.
 url: https://raw.githubusercontent.com/api-evangelist/nimbus-health/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - 8vc
+- 2048-ventures
+- general-catalyst
 x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Healthcare
+- Pulmonary Care
+- Respiratory
+- Clinics
+- Health Tech
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +49,16 @@ maintainers:
 common:
 - type: Website
   url: https://nimbushealth.com
+- type: DomainSecurity
+  url: security/nimbus-health-domain-security.yml
+- type: PrivacyPolicy
+  url: https://www.nimbushealth.com/privacy-policy
+- type: TermsOfService
+  url: https://www.nimbushealth.com/terms-of-service
+- type: Support
+  url: https://www.nimbushealth.com/contact
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
